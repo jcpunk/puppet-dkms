@@ -1,5 +1,6 @@
 class dkms::params {
   $apt_release = ''
+  $modules = {}
 
   case $::operatingsystem {
     redhat,centos,scientific,oraclelinux: {
