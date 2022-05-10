@@ -1,0 +1,4 @@
+---
+dkms::kernel_devel_package_names:
+  - linux-headers-amd64
+...

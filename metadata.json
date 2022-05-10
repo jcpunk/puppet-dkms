@@ -2,29 +2,20 @@
   "name": "jcpunk-dkms",
   "version": "0.1.0",
   "author": "Pat Riehecky",
-  "summary": "",
+  "summary": "Manage DKMS and add kmods to build",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/jcpunk/puppet-dkms",
+  "project_page": "https://github.com/jcpunk/puppet-dkms",
+  "issues_url": "https://github.com/jcpunk/puppet-dkms/issues",
   "dependencies": [
 
   ],
   "operatingsystem_support": [
     {
-      "operatingsystem": "CentOS",
-      "operatingsystemrelease": [
-        "7"
-      ]
-    },
-    {
-      "operatingsystem": "OracleLinux",
-      "operatingsystemrelease": [
-        "7"
-      ]
-    },
-    {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "8"
+        "8",
+        "9"
       ]
     },
     {
@@ -36,19 +27,19 @@
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
-        "10"
+        "11"
       ]
     },
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
-        "18.04"
+        "22.04"
       ]
     },
     {
       "operatingsystem": "Fedora",
       "operatingsystemrelease": [
-        "29"
+        "35"
       ]
     },
     {

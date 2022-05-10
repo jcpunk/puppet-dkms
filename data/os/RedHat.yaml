@@ -1,0 +1,5 @@
+---
+dkms::kernel_devel_package_names:
+  - kernel-devel
+  - kernel-headers
+...

@@ -1,1 +1,27 @@
---- {}
+---
+dkms::package_manage: true
+dkms::package_names:
+ - dkms
+dkms::package_ensure: installed
+
+dkms::kernel_devel_package_manage: true
+dkms::kernel_devel_package_names:
+  - kernel-devel
+dkms::kernel_devel_package_ensure: installed
+
+dkms::service_manage: true
+dkms::service_names:
+  - dkms.service
+dkms::service_ensure: running
+dkms::service_enable: true
+dkms::autoinstall::timeout: 600
+
+lookup_options:
+  dkms::kernel_modules:
+    merge:
+      strategy: deep
+      merge_hash_arrays: true
+      knockout_prefix: '--'
+
+dkms::kernel_modules: {}
+...

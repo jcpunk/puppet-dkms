@@ -1,0 +1,5 @@
+---
+dkms::kernel_devel_package_names:
+  - "linux-headers-%{facts.architecture}"
+dkms::service_manage: false
+...
