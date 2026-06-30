@@ -6,6 +6,12 @@ All notable changes to this project will be documented in this file.
 
 **Features**
 
+- Note stdlib 10 support
+
+## Release 0.1.0
+
+**Features**
+
 **Bugfixes**
 
 **Known Issues**

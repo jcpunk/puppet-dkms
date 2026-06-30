@@ -1,6 +1,6 @@
 {
   "name": "jcpunk-dkms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Pat Riehecky",
   "summary": "Manage DKMS and add kmods to build",
   "license": "Apache-2.0",
@@ -15,41 +15,22 @@
   ],
   "operatingsystem_support": [
     {
-      "operatingsystem": "RedHat",
-      "operatingsystemrelease": [
-        "8",
-        "9"
-      ]
+      "operatingsystem": "Fedora"
     },
     {
-      "operatingsystem": "Scientific",
-      "operatingsystemrelease": [
-        "7"
-      ]
+      "operatingsystem": "RedHat"
     },
     {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "11"
-      ]
+      "operatingsystem": "AlmaLinux"
     },
     {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "22.04"
-      ]
+      "operatingsystem": "Debian"
     },
     {
-      "operatingsystem": "Fedora",
-      "operatingsystemrelease": [
-        "35"
-      ]
+      "operatingsystem": "Ubuntu"
     },
     {
-      "operatingsystem": "SLES",
-      "operatingsystemrelease": [
-        "15"
-      ]
+      "operatingsystem": "SLES"
     }
   ],
   "requirements": [
@@ -58,7 +39,7 @@
       "version_requirement": ">= 6.21.0 < 9.0.0"
     }
   ],
-  "pdk-version": "3.5.1 (g2719cbc)",
-  "template-url": "pdk-default#3.5.1.2",
-  "template-ref": "tags/3.5.1.2-0-gfa96b82"
+  "pdk-version": "3.6.1 (ga18bc44)",
+  "template-url": "pdk-default#3.6.1",
+  "template-ref": "tags/3.6.1-0-gb9426e5"
 }
